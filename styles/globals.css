@@ -1,0 +1,850 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header_desktop {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header_items {
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.language {
+  font-family: Archivo;
+}
+
+.portfolio {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.lacoste {
+  position: fixed;
+}
+
+.landingpage_content {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 150px;
+}
+
+.hero_portfolo {
+  border: 2px solid black;
+  height: 45px;
+  width: 160px;
+  padding-top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 15px;
+}
+
+.hero_message {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  height: 47px;
+  width: 170px;
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 4px;
+  border-radius: 15px;
+}
+
+.port_sec {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  height: 50px;
+  width: 220px;
+  padding-top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.hero_icon {
+  width: 25px;
+  margin-right: 8px;
+}
+
+.hero_head {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero_img {
+  height: 500px;
+}
+
+.service {
+  margin-top: 260px;
+}
+
+.services_Section_sub {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.services_Section_head {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.skill_container {
+  background-color: rgb(241, 240, 238);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.skills {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service_grid {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skills_head {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.skill_text {
+  font-size: 14px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.me {
+  margin-top: 150px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.lg {
+  width: 500px;
+}
+
+.me_head {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.me_text {
+  font-size: 17px;
+}
+
+.color_on {
+  height: 20px;
+  width: 20px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  border: 2px solid;
+  margin-top: 3px;
+}
+
+.me_text_head {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.my_text {
+  padding-left: 60px;
+}
+
+.color_one {
+  height: 20px;
+  width: 20px;
+  background-color: chocolate;
+  border-radius: 5px;
+  border: 2px solid;
+  margin-top: 3px;
+}
+
+.portfolio_content {
+  margin-top: 130px;
+}
+
+.port_color {
+  background-color: brown;
+}
+
+.port_Des {
+  margin-top: 60px;
+}
+
+.arrow {
+  transform: rotate(90deg);
+  width: 30px;
+}
+
+.portfolo_conten {
+  border: 3px solid black;
+  border-radius: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 40px;
+}
+
+.lac {
+  width: 600px;
+}
+
+.port_head {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.port_det {
+  text-transform: lowercase;
+}
+
+.resume {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.past {
+  background-color: dodgerblue;
+}
+
+.article {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.skill_set {
+  border: 4px solid black;
+  border-radius: 30px;
+  width: 400px;
+  flex-basis: 25%;
+}
+
+.res {
+  width: 100px;
+}
+
+.resume_card {
+  width: 600px;
+  background-color: white;
+  color: black;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.articles {
+  margin-top: 180px;
+}
+
+.resume_head {
+  border: 1px solid black;
+}
+
+.jb_title {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ress_head {
+  margin-top: 400px;
+}
+
+.hero_portfol {
+  border: 2px solid black;
+  height: 45px;
+  width: 180px;
+  padding-top: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.question {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.art {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+  width: 250px !important;
+}
+
+.read {
+  color: dodgerblue;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.faq_head {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq {
+  font-size: 35px;
+}
+
+.tog {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero_head {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .hero_img {
+    height: 400px;
+  }
+  .lac {
+    width: 400px;
+    height: 300px;
+  }
+  .me_head {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .me_text_head {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .color_on {
+    height: 18px;
+    width: 18px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-top: 3px;
+  }
+  .color_one {
+    height: 18px;
+    width: 18px;
+    background-color: chocolate;
+    border-radius: 5px;
+    border: 2px solid;
+    margin-top: 3px;
+  }
+  .lg {
+    width: 500px;
+    margin-top: 100px;
+  }
+  .port_head {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .hero_message {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    height: 47px;
+    width: 170px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 4px;
+    border-radius: 15px;
+  }
+  .resume_card {
+    width: 400px;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .resume_card {
+    width: 300px;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .service_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service_grid {
+    width: 0px;
+  }
+  .landsec {
+    display: grid;
+    text-align: center;
+  }
+  .ress_head {
+    margin-top: 50px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .lac {
+    width: auto;
+  }
+  .me {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero_message {
+    margin-bottom: 30px;
+  }
+  .resume {
+    display: flex;
+    flex-direction: column;
+  }
+  .port_Des {
+    margin-top: 30px;
+  }
+  .portfolo_conten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workplace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .hero_portfol {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .port_Des {
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .workplace {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .hero_img {
+    width: 400px;
+    height: 350px;
+  }
+  .my_text {
+    padding-left: 0px;
+  }
+  .lac {
+    height: 250px;
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .me_head {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  .landingpage_content {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .resume_card {
+    width: 350px;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .resume_card {
+    width: 300px;
+    background-color: white;
+    color: black;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+  .res {
+    width: 80px;
+  }
+  .hero_img {
+    width: 300px;
+    margin-left: 10px;
+  }
+  .hero_texts {
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_portfolo {
+    width: 150px;
+  }
+  .hero_message {
+    width: 150px;
+  }
+  .skill_set {
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 350px;
+    flex-basis: 25%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .hero_portfolo {
+    border: 2px solid black;
+    height: 45px;
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .skill_set {
+    border: 4px solid black;
+    border-radius: 30px;
+    width: 320px;
+    flex-basis: 25%;
+  }
+  .hero_icon {
+    width: 20px;
+    margin-right: 8px;
+  }
+  .hero_message {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    height: 47px;
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 4px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+}
+.footer {
+  color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.foot {
+  background-color: black;
+  border-top: 8px solid red;
+  height: 200px;
+  background-color: black;
+  padding-top: 100px;
+  margin-top: 70px;
+}
+
+.lacoste_head {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+  .lacoste_head {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+.projects {
+  font-family: Archivo;
+}
+
+.links {
+  color: rgb(255, 2, 2);
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.lacoste_logo {
+  width: 130px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.project_overview {
+  font-size: 17px;
+}
+
+.lac_shot {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.overview {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.proj {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+  .lacoste_head {
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .lacoste_logo {
+    width: 110px;
+    height: 45px;
+    margin-top: 23px;
+  }
+  .tools {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .overview {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+}
+.contact {
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top: 100px;
+}
+
+.contact_text {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+.span_text {
+  background-color: khaki;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contact_details {
+  border: 3px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+.contact_details:hover {
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  transition-duration: 1;
+}
+
+.form {
+  border: 3px solid black;
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+}
+
+.input {
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.input:hover {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  transition-duration: 1;
+}
+
+.description {
+  height: 150px;
+  border: solid black 3px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.description:hover {
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.send {
+  height: 50px;
+  width: 150px;
+  border: 3px solid black;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.send:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+@media only screen and (max-width: 1224px) {
+  .contact_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+  .contact_text {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .input {
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    border: 3px solid black;
+  }
+  .description {
+    height: 100px;
+    border: solid black 3px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .send {
+    height: 40px;
+    width: 100px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .contact_details {
+    border: 3px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-weight: 600;
+    border-radius: 25px;
+  }
+}/*# sourceMappingURL=globals.css.map */

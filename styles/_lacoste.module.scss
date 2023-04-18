@@ -1,0 +1,76 @@
+.lacoste_head {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+@media only screen and (max-width: 1000px) {
+    .lacoste_head {
+        margin-top: 50px;
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+   
+}
+
+.projects{
+    font-family: Archivo;
+
+}
+.links{
+    color: rgb(255, 2, 2);
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.lacoste_logo {
+    width: 130px;
+    height: 70px;
+    margin-top: 10px;
+}
+.project_overview{
+    font-size: 17px;
+}
+.lac_shot {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.overview {
+    font-size: 40px;
+    font-weight: 600;
+}
+.proj{
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 50px;
+}
+@media only screen and (max-width: 425px) {
+    .lacoste_head {
+        margin-top: 50px;
+        font-size: 17px;
+        font-weight: 600;
+    
+    }
+    .lacoste_logo {
+        width: 110px;
+        height: 45px;
+        margin-top: 23px;
+    }
+    .tools{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .links{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .overview {
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+}

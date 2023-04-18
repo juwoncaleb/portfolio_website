@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header_desktop {
+margin-left: 7%;
+margin-right: 7%;
+
+}
+
+.logo{
+    width: 50px;
+}
+.header_items{
+    font-weight: 600;
+}
