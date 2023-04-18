@@ -19,12 +19,12 @@ export default function Landingpage() {
           className='flex justify-between landsec'>
           <div>
             <div className='hero_head'>
-              <p>I'm Juwoncaleb</p>
+              <p>I am Juwoncaleb</p>
               <p>a Frontend engineer</p>
               <p>& Web performance consultant</p>
             </div>
             <div className='hero_texts'>
-              <p >Leveraging my frontend engineering skills to push your website's performance to the limit and give you a competitive edge in the digital landscape.</p>
+              <p >Leveraging my frontend engineering skills to push your website performance to the limit and give you a competitive edge in the digital landscape.</p>
 
             </div>
             <div className='flex mt-10 buttons'>
