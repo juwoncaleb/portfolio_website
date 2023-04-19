@@ -1,5 +1,5 @@
-.footer{
-   
+.footer {
+
     color: white;
 
     margin-left: 7%;
@@ -7,7 +7,8 @@
     font-size: 20px;
     font-weight: 500;
 }
-.foot{
+
+.foot {
     background-color: black;
     border-top: 8px solid red;
     height: 200px;
@@ -15,4 +16,43 @@
     padding-top: 100px;
     margin-top: 70px;
 
+}
+
+.diva {
+    height: 500px;
+    width: 800px;
+    transform: rotate(-5deg);
+    background-color: red;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.diva2 {
+    height: 500px;
+    width: 800px;
+    background-color: greenyellow;
+    transform: rotate(-5deg);
+    position: absolute;
+    top: 0;
+    margin-left: 100px;
+    z-index: 0;
+}
+
+.diva3 {
+   
+    height: 500px;
+    width: 800px;
+    z-index: 1;
+    transform: rotate();
+    margin-left: 200px;
+    background-color: cyan;
+}
+
+.daya {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 200px;
+    background-color: cadetblue;
 }
