@@ -2,13 +2,28 @@ import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import { motion, stagger, useScroll, useTransform } from "framer-motion"
 import Header from '../components/Header'
-
+import Swiper from 'swiper';
+import 'swiper/css/swiper.min.css';
+import { carouselItems } from './data';
 
 export default function Landingpage() {
   const [active, setActive] = useState(null)
   let { scrollYProgress } = useScroll();
   let y = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
-
+  //SWIPER JS
+  useEffect(() => {
+    new Swiper('.swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      }
+    });
+  }, []);
   return (
     <div className='language'>
       <Header />
@@ -40,6 +55,19 @@ export default function Landingpage() {
           </div>
           <img className='hero_img' src='./home/land.png' />
         </motion.div>
+        <div className="swiper-container">
+          <div className="swiper-wrapper">
+            {carouselItems.map(item => (
+              <div key={item.id} className="swiper-slide">
+                <img src={item.image} alt={item.title} />
+              </div>
+            ))}
+          </div>
+          <div className="swiper-pagination"></div>
+          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev"></div>
+        </div>
+
         <motion.div initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{
