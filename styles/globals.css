@@ -46,7 +46,7 @@
 .landingpage_content {
   margin-left: 7%;
   margin-right: 7%;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .hero_portfolo {
@@ -99,6 +99,7 @@
 .hero_head {
   font-size: 50px;
   font-weight: 700;
+  margin-top: 100px;
 }
 
 .hero_img {
@@ -106,7 +107,7 @@
 }
 
 .service {
-  margin-top: 260px;
+  margin-top: 310px;
 }
 
 .services_Section_sub {
@@ -162,8 +163,9 @@
   margin-bottom: 60px;
 }
 
-.me {
-  margin-top: 150px;
+.myself {
+  margin-top: 200px;
+  margin-bottom: 100px;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -218,7 +220,13 @@
 }
 
 .port_Des {
-  margin-top: 60px;
+  margin-top: 70px;
+}
+
+.lacost_image {
+  width: 60%;
+  height: 400px;
+  margin-top: 50px;
 }
 
 .arrow {
@@ -617,37 +625,84 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
-.por_1 {
+.por_1_original {
   height: 500px;
-  width: 800px;
-  transform: rotate(-5deg);
+  width: 80%;
   background-color: red;
   position: absolute;
   top: 0;
-  z-index: 0;
+  opacity: 1;
+  transform: rotate(6deg);
 }
 
-.por_2 {
+.por_1_original_click {
   height: 500px;
-  width: 800px;
-  background-color: greenyellow;
-  transform: rotate(0deg);
+  width: 80%;
+  background-color: red;
   position: absolute;
   top: 0;
-  margin-left: 100px;
-  z-index: 1;
+  opacity: 1;
+  transform: rotate(-2deg);
+  z-index: 6;
 }
 
-.por_3 {
-  height: 500px;
-  width: 800px;
-  z-index: 0;
-  transform: rotate(-5deg);
-  margin-left: 100px;
+.data {
+  height: 100vh;
   background-color: cyan;
+}
+
+.por_2_original {
+  height: 500px;
+  width: 80%;
+  background-color: greenyellow;
+  position: absolute;
+  top: 1;
+  opacity: 1;
+  transform: rotate(3deg);
+}
+
+.por_2_original_click {
+  height: 500px;
+  width: 80%;
+  background-color: greenyellow;
+  position: absolute;
+  top: 1;
+  opacity: 1;
+  z-index: 6;
+  transform: rotate(0deg);
+}
+
+.por_3_original {
+  height: 500px;
+  width: 80%;
+  background-color: cyan;
+  opacity: 1;
+  transform: rotate(-4deg);
+  z-index: 0;
+  margin-right: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.por_3_original_click {
+  height: 500px;
+  width: 80%;
+  background-color: cyan;
+  opacity: 1;
+  transform: rotate(-3deg);
+  z-index: 6;
+  margin-right: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
 }
 
 .footer {
