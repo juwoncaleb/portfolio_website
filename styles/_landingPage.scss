@@ -20,6 +20,174 @@
     text-align: center;
 
 }
+.code{
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.fal{
+    width: 400px;
+    height: 400px;
+}
+.codejnr{
+    font-size: 30px;
+    font-weight: 700; 
+}
+.test {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 150px;
+}
+.energy{
+    font-size: 50px;
+    font-weight: 700;
+}
+.staff {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proj_per {
+    background-color: rgb(52, 86, 131);
+    color: white;
+}
+
+.por_1_original {
+    height: 500px;
+    width: 80%;
+    background-color: rgb(52, 86, 131);
+    color: white;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transform: rotate(6deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.nyxx {
+    background-color: rgb(52, 86, 131);
+    color: white;
+}
+
+.orr {
+    background-color: rgb(6, 139, 6);
+    color: white;
+}
+
+.perl {
+    height: 100px;
+}
+
+.por_1_original_click {
+    height: 500px;
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transform: rotate(-2deg);
+    z-index: 6;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(52, 86, 131);
+
+}
+
+.nys {
+    background-color: rgb(139, 9, 9);
+
+    color: white;
+
+}
+
+.dat {
+    background-color: rgb(226, 160, 27);
+}
+
+.perr {
+    background-color: rgb(52, 86, 131);
+    color: white;
+}
+
+
+.por_2_original {
+    height: 500px;
+    width: 80%;
+    background-color: rgb(139, 9, 9);
+    color: black;
+    position: absolute;
+    top: 1;
+    opacity: 1;
+    transform: rotate(3deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.small_port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.perlg {
+    height: 65px;
+    margin-left: 20px;
+}
+
+.por_2_original_click {
+    height: 500px;
+    width: 75%;
+    background-color: rgb(139, 9, 9);
+    color: white;
+    position: absolute;
+    top: 1;
+    opacity: 1;
+    z-index: 6;
+    transform: rotate(0deg);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+}
+
+.por_3_original {
+    height: 500px;
+    width: 75%;
+    opacity: 1;
+    transform: rotate(-4deg);
+    z-index: 0;
+    margin-right: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.por_3_original_click {
+    height: 500px;
+    width: 75%;
+    opacity: 1;
+    transform: rotate(-3deg);
+    z-index: 6;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+
+}
 
 .lacoste {
     position: fixed;
@@ -28,7 +196,7 @@
 .landingpage_content {
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .hero_portfolo {
@@ -48,6 +216,18 @@
     border: 2px solid black;
     height: 47px;
     width: 170px;
+    padding-top: 10px;
+    padding-left: 3px;
+    padding-right: 4px;
+    border-radius: 15px;
+}
+
+.explore_black {
+    background-color: rgb(241, 243, 236);
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    height: 47px;
+    width: 150px;
     padding-top: 10px;
     padding-left: 3px;
     padding-right: 4px;
@@ -90,7 +270,7 @@
 }
 
 .service {
-    margin-top: 310px;
+    margin-top: 370px;
 }
 
 .services_Section_sub {
@@ -109,6 +289,16 @@
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 
+}
+
+.nyx {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+
+.nyx_log {
+    height: 50px;
 }
 
 .skills {
@@ -152,7 +342,7 @@
 }
 
 .myself {
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 7%;
     margin-right: 7%;
@@ -197,6 +387,7 @@
     border-radius: 5px;
     border: 2px solid;
     margin-top: 3px;
+
 }
 
 .portfolio_content {
@@ -207,14 +398,21 @@
     background-color: brown;
 }
 
+.port_color_ {
+    background-color: brown;
+    font-size: 55px !important;
+}
+
 .port_Des {
-    margin-top: 70px;
+    margin-top: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .lacost_image {
-    width: 60%;
-    height: 400px;
-    margin-top: 50px;
+    width: 55%;
+    height: 320px;
+    margin-top: 90px;
 }
 
 .arrow {
@@ -223,8 +421,6 @@
 }
 
 .portfolo_conten {
-    border: 3px solid black;
-    border-radius: 30px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-top: 40px;
@@ -236,7 +432,7 @@
 }
 
 .port_head {
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -357,9 +553,134 @@
 
 
 @media only screen and (max-width: 1024px) {
+
+    .test {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 150px;
+    }
+
+    .por_1_original {
+        height: 400px;
+        width: 80%;
+        background-color: rgb(52, 86, 131);
+        color: white;
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        transform: rotate(6deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+
+    }
+
+    .por_1_original_click {
+        height: 400px;
+        width: 80%;
+        background-color: rgb(52, 86, 131);
+        color: white;
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        transform: rotate(-2deg);
+        z-index: 6;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+
+
+    .por_2_original {
+        height: 400px;
+        width: 80%;
+        background-color: rgb(139, 9, 9);
+        color: black;
+        position: absolute;
+        top: 1;
+        opacity: 1;
+        transform: rotate(3deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+
+    .perlg {
+        height: 65px;
+        margin-left: 20px;
+    }
+
+    .por_2_original_click {
+        height: 400px;
+        width: 75%;
+        background-color: rgb(139, 9, 9);
+        color:white;
+        position: absolute;
+        top: 1;
+        opacity: 1;
+        z-index: 6;
+        transform: rotate(0deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+
+    }
+
+    .por_3_original {
+        height: 400px;
+        width: 75%;
+        opacity: 1;
+        transform: rotate(-4deg);
+        z-index: 0;
+        margin-right: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+
+    .por_3_original_click {
+        height: 400px;
+        width: 75%;
+        opacity: 1;
+        transform: rotate(-3deg);
+        z-index: 6;
+        margin-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+
+    }
+
+    .nyx {
+        height: 35px;
+        margin-left: 20px;
+        margin-bottom: 2px;
+        position: relative;
+        background-origin: 5px;
+    }
+
     .hero_head {
         font-size: 40px;
         font-weight: 600;
+    }
+
+    .port_Des {
+        margin-top: 60px;
+    }
+
+    .lacost_image {
+        width: 55%;
+        height: 220px;
+        margin-top: 80px;
+        margin-left: 10px;
     }
 
     .hero_img {
@@ -409,6 +730,8 @@
         font-size: 30px;
         font-weight: 600;
         margin-bottom: 20px;
+        position: relative;
+        top: 8px;
     }
 
     .hero_message {
@@ -434,15 +757,58 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
-    .resume_card {
-        width: 300px;
-        background-color: white;
-        color: black;
-        margin-top: 80px;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        border-radius: 20px;
+@media only screen and (max-width: 800px) {
+    .myself {
+        display: grid;
+    }
+
+    .landingpage_content {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 200px;
+    }
+
+
+}
+
+@media only screen and (min-width: 800px) {
+
+    .port_sub {
+        display: none;
+    }
+
+    .porr {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .portfolo_conten {
+        display: none;
+    }
+
+    .port_Des {
+        display: none;
+    }
+
+    .port_sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .port_head {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .lacost_image {
+        width: 100%;
+        height: 200px !important;
+        margin-top: 10px !important;
     }
 }
 
@@ -524,8 +890,142 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .landingpage_content {
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 0px;
+    }
+    .code{
+        font-size: 25px;
+        font-weight: 700;
+            
+    }
 
+}
+
+.aboutme{
+    margin-top: 150px !important;
+}
 @media only screen and (max-width: 425px) {
+    .small_head {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .port_head {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .por_1_original {
+        height: 500px;
+        width: 80%;
+        background-color: rgb(52, 86, 131);
+        color: white;
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        transform: rotate(6deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    margin-bottom: 20px;
+    }
+
+    .por_1_original_click {
+        height: 500px;
+        width: 80%;
+        background-color: rgb(52, 86, 131);
+        color: white;
+        position: absolute;
+        top: 0;
+        opacity: 1;
+        transform: rotate(-2deg);
+        z-index: 6;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+
+
+    .por_2_original {
+        height: 500px;
+        width: 80%;
+        background-color: rgb(139, 9, 9);
+        color: white;
+        position: absolute;
+        top: 1;
+        opacity: 1;
+        transform: rotate(3deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+
+    .perlg {
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .por_2_original_click {
+        height: 500px;
+        width: 75%;
+        background-color: rgb(139, 9, 9);
+        color: white;
+        position: absolute;
+        top: 1;
+        opacity: 1;
+        z-index: 6;
+        transform: rotate(0deg);
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+
+    }
+
+    .por_3_original {
+        height: 500px;
+        width: 75%;
+        opacity: 1;
+        transform: rotate(-4deg);
+        z-index: 0;
+        margin-right: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+    }
+
+    .port_color_ {
+        background-color: brown;
+        font-size: 35px !important;
+    }
+
+    .por_3_original_click {
+        height: 500px;
+        width: 75%;
+        opacity: 1;
+        transform: rotate(-3deg);
+        z-index: 6;
+        margin-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+
+    }
+
+    .hero_head {
+        font-weight: 700;
+        margin-top: 20px !important;
+    }
+
     .port_Des {
         margin-top: 30px;
         text-align: left;
@@ -541,9 +1041,6 @@
         width: 400px;
         height: 350px;
     }
-
-
-
 
     .my_text {
         padding-left: 0px;
@@ -561,14 +1058,29 @@
         margin-bottom: 10px;
     }
 
+    .nyx_log {
+        height: 23px;
+    }
+
     .landingpage_content {
         margin-left: 2%;
         margin-right: 2%;
         margin-top: 50px;
     }
+
+    .nyx {
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .perl {
+        height: 50px;
+        margin-top: 20px;
+    }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
+
     .resume_card {
         width: 350px;
         background-color: white;
@@ -580,7 +1092,7 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .resume_card {
         width: 300px;
         background-color: white;
@@ -669,88 +1181,13 @@
 
 }
 
-.test {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 150px;
+@media only screen and (min-width: 1440px) {
+    .lacost_image {
+        width: 600px;
+    }
 }
 
-.por_1_original {
-    height: 500px;
-    width: 80%;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    opacity: 1;
-    transform: rotate(6deg);
-}
-
-.por_1_original_click {
-    height: 500px;
-    width: 80%;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    opacity: 1;
-    transform: rotate(-2deg);
-    z-index: 6;
-}
-
-.data {
-    height: 100vh;
-    background-color: cyan;
-}
-
-.por_2_original {
-    height: 500px;
-    width: 80%;
-    background-color: greenyellow;
-    position: absolute;
-    top: 1;
-    opacity: 1;
-    transform: rotate(3deg);
-}
-
-.por_2_original_click {
-    height: 500px;
-    width: 80%;
-    background-color: greenyellow;
-    position: absolute;
-    top: 1;
-    opacity: 1;
-    z-index: 6;
-    transform: rotate(0deg);
-}
-
-.por_3_original {
-    height: 500px;
-    width: 80%;
-    background-color: cyan;
-    opacity: 1;
-    transform: rotate(-4deg);
-    z-index: 0;
-    margin-right: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
+.lac_Con {
     background-color: black;
-    border-radius: 15px;
-}
-
-.por_3_original_click {
-    height: 500px;
-    width: 80%;
-    background-color: cyan;
-    opacity: 1;
-    transform: rotate(-3deg);
-    z-index: 6;
-    margin-right: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
     color: white;
-    background-color: black;
-    border-radius: 15px;
-
 }

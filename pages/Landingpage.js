@@ -4,6 +4,7 @@ import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "fram
 import Header from '../components/Header'
 import Data from './data'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 export default function Landingpage() {
   const [active, setActive] = useState(null)
@@ -12,7 +13,10 @@ export default function Landingpage() {
   const [selected, setSelected] = useState(null);
   const [portClick, setPortClick] = useState(null);
   const router = useRouter()
-
+  const handleScrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <AnimatePresence >
       <motion.div key={router.route}
@@ -22,7 +26,7 @@ export default function Landingpage() {
         transition={{
           duration: 0.5
         }} className='language'>
-        <Header />
+        <Header onMenuItemClick={handleScrollToSection} />
         <div className='landingpage_content '>
           {/* HERO */}
           <motion.div
@@ -35,7 +39,8 @@ export default function Landingpage() {
                 <p>& Web performance consultant</p>
               </div>
               <div className='hero_texts'>
-                <p >Leveraging my frontend engineering skills to push your website performance to the limit and give you a competitive edge in the digital landscape.</p>
+                <p >YOU CAN CALL ME JC OR COMPUTER WHISPERER
+                  YOU DEBUG CODE , <br/> I STARE AT MY CODE , TILL THE BUGS STARTS CONFESSING</p>
 
               </div>
               <div className='flex mt-10 buttons'>
@@ -121,27 +126,28 @@ export default function Landingpage() {
 
           </div>
 
-          <div className='myself flex justify-between'>
+          <div id="div1" className='myself aboutme flex justify-between'>
             <div>
               <img className='lg' src='./home/lg3.png' />
             </div>
             <div className='my_text'>
               <p className='me_head'>Who’s behind all <br /> this great work?</p>
-              <p className='me_text'>I am soneye omojuwon  , a graduate from the Univeristy of Lagos Nigeria</p>
-              <p className='me_text'>With a bachelor degree in Surveying and Geomatics engineering</p>
-              <div className='mt-2 xl:mt-6 xl:mb-4 mb-2 flex'>
+              <p className='me_text'>I am soneye omojuwon, a Frontend engineer </p>
+              <p className='me_text'>and web performance consultant from lagos Nigeria.</p>
+              <p className='me_text'>I believe that the internet should be accessible to everyone,</p>
+              <div className='mt-2 xl:mt-6 xl:mb-4 mb-2 flex '>
                 <div className='color_on'>
                 </div>
                 <p className='me_text_head ml-2'> 3 Years Experience</p>
               </div>
-              <p >Worked as a frontend engineer and interns in so <br />many startups and contributed to open source projects</p>
+              <p > I have a track record of improving web performance in companies , includng a YC backed startup PAYLOAD</p>
 
               <div className='xl:mt-6 mt-2 mb-4 flex'>
                 <div className='color_one'>
                 </div>
                 <p className='me_text_head ml-2'> Personal Projects</p>
               </div>
-              <p >I have worked on so many  projects <br /> to improve my proficency as an engineer</p>
+              <p > I made several projects, with serveral web as a freelancer <br /> and for fun to get better</p>
 
             </div>
           </div>
@@ -154,9 +160,40 @@ export default function Landingpage() {
                 setPortClick(1)
                 console.log("click");
               }}
-              className={portClick === 1 ? "por_1_original_click" : "por_1_original"}
+              className={portClick === 1 ? "por_1_original_click flex  justify-around" : "flex  justify-around por_1_original"}
             >
-              k
+              <div className='port_Des '>
+                <div className='flex '>
+                  <p className='port_head'>Pereview</p>
+                  <img className='perlg' src='./perelogo.png' />
+                </div>
+                <p className='port_det'>A DEVELOPER PRODUCTIVITY SASS <br />tO HELP DEVELOPERS ARE PRODUCT DESIGNERS  <br />
+                  GATHER REAL USER FEEDBACK ON PRODUCT BEFORE DEPLOYMENT </p>
+                <Link href='./pere'>
+                  <button className='explore_black mt-8 flex justify-center '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+                  </button>
+                </Link>
+              </div>
+              <img className='lacost_image port_Des' src='./pere.png' />
+
+
+              <div className='port_sub'>
+                <div className='flex justify-center small_head '>
+                  <p className='port_head'>Pereview</p>
+                  <img className='perlg' src='./perelogo.png' />
+                </div>
+                <img className='lacost_image' src='./pere.png' />
+                <Link href='./pere'>
+                  <button className='explore_black mt-8 flex justify-center  '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+
+                  </button>
+                </Link>
+              </div>
+
             </motion.div>
 
             <motion.div
@@ -165,10 +202,41 @@ export default function Landingpage() {
                 console.log("click");
               }}
 
-
-              className={portClick === 2 ? "por_2_original_click" : "por_2_original"}
+              className={portClick === 2 ? "por_2_original_click flex  justify-around" : "por_2_original flex  justify-around"}
             >
-              k
+              <div className='port_Des '>
+                <div className='flex '>
+                  <p className='port_head'>
+                    NYX</p>
+                  <img className='nyx ' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
+                </div>
+                <p className='port_det'>A FULL STACK ECOMMERCE STORE
+                  MADE WITH <br /> NEXTJS IN THE FRONTENDS
+                  MADE WITH NEXTJS IN THE BACKEND <br />
+                  UTILIZES MONGODB AS A DATABASE SYSTEM </p>
+                <Link href="./nysx">
+                  <button className='explore_black mt-8 flex justify-center '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+
+                  </button>
+                </Link>
+              </div>
+
+              <img className='lacost_image port_Des' src='./nyx.png' />
+              <div className='port_sub'>
+                <div className='flex justify-center '>
+                  <p className='port_head'>NYX</p>
+                  <img className='nyx' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
+                </div>
+                <img className='lacost_image' src='./nyx.png' />
+                <Link href="./nysx">
+                  <button className='explore_black mt-8 flex justify-center  '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+                  </button>
+                </Link>
+              </div>
             </motion.div>
 
             <motion.div
@@ -177,66 +245,51 @@ export default function Landingpage() {
                 setPortClick(3)
               }}
 
-              className={portClick === 3 ? "por_3_original_click flex flex justify-around" : "por_3_original flex justify-around"}
+              className={portClick === 3 ? "por_3_original_click flex  justify-around" : "por_3_original flex justify-around"}
             >
               <div className='port_Des '>
-                <p className='port_head'>Lacoste E-commerce store</p>
+                <div className='flex'>
+                  <p className='port_head'>Lacoste </p>
+                  <img className='nyx' src='./home/laco.png' />
+                </div>
+
                 <p className='port_det'>A FULL STACK ECOMMERCE STORE
                   MADE WITH <br /> NEXTJS IN THE FRONTENDS
                   MADE WITH NEXTJS IN THE BACKEND <br />
                   UTILIZES MONGODB AS A DATABASE SYSTEM </p>
-                <button className='hero_message mt-8 flex justify-center '>
-                  Explore
-                  <img className=' ml-4 mb-2 arrow' src='./home/arrow.png' />
-
-                </button>
+                <Link href='./lacoste'>
+                  <button className='explore_black mt-8 flex justify-center '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+                  </button>
+                </Link>
               </div>
-              <img className='lacost_image' src='./home/lac.png' />
+              <img className='lacost_image port_Des' src='./home/lac.png' />
+
+              <div className='port_sub'>
+                <div className='flex justify-center small_head '>
+                  <p className='port_head'>Lacoste</p>
+                  <img className='nyx' src='./home/laco.png' />
+                </div>
+                <img className='lacost_image' src='./home/lac.png' />
+                <Link href='./lacoste'>
+                  <button className='explore_black mt-8 flex justify-center  '>
+                    Explore
+                    <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
+                  </button>
+                </Link>
+              </div>
             </motion.div>
           </div>
+          <Link href='./portfolio'>
+            <button className='port_sec flex mb-14 justify-center ml-10'>
+              <img className='hero_icon ' src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/null/external-suitcase-office-stationery-justicon-lineal-color-justicon.png" />
+              <p className='ml-4'>
+                View more project
+              </p>
+            </button>
+          </Link>
 
-          <div className='portfolio_content'>
-            <div className='portfolo_conten  flex justify-around'>
-              <div className='port_Des '>
-                <p className='port_head'>Lacoste E-commerce store</p>
-                <p className='port_det'>A FULL STACK ECOMMERCE STORE
-                  MADE WITH <br /> NEXTJS IN THE FRONTENDS
-                  MADE WITH NEXTJS IN THE BACKEND <br />
-                  UTILIZES MONGODB AS A DATABASE SYSTEM </p>
-                <button className='hero_message mt-8 flex justify-center '>
-                  Explore
-                  <img className=' ml-4 mb-2 arrow' src='./home/arrow.png' />
-
-                </button>
-              </div>
-              <img className='lac' src='./home/lac.png' />
-            </div>
-            <div className='portfolo_conten flex justify-around'>
-              <div className='port_Des'>
-                <p className='port_head'>Blacklist</p>
-
-                <p className='port_det'>ALTERNATE DATABASE OF CHRONIC DEFAULTERS
-                  FOR DEBT RECOVERY.   <br /> I WORKED AS A FRONTEND
-                  ENGINEER IN THE ADMIN PANEL OF USERS. <br />
-                  I USED REACTJS FOR THE CREATION OF REUSABLE
-                  COMPONENTS. <br />I USED REDUX TOOLKIT AS
-                  A STATE MANAGEMENT SYSTEM </p>
-                <button className='hero_message mt-8 flex justify-center '>
-                  Explore
-                  <img className=' ml-4 mb-2 arrow' src='./home/arrow.png' />
-
-                </button>
-              </div>
-              <img className='lac' src='./home/black.png' />
-            </div>
-
-          </div>
-          <button className='port_sec flex mb-14 justify-center ml-10'>
-            <img className='hero_icon mr-4' src='./home/mail.png' />
-            <p className='ml-4'>
-              View more project
-            </p>
-          </button>
 
           <div className='resume flex justify-around'>
             <div className='ress_head'>
@@ -285,7 +338,7 @@ export default function Landingpage() {
             </div>
           </div>
 
-          <div className='articles '>
+          <div id="div2" className='articles '>
             <p className='article'>Articles</p>
 
             <div className='faq_head'>
