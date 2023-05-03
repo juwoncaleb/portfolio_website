@@ -8,7 +8,8 @@ export default function Lacoste() {
     const router = useRouter()
 
     return (
-        <AnimatePresence>
+       <div>
+         <AnimatePresence>
             <motion.div key={router.route}
                 initial={{ x: "100%" }}
                 animate={{ x: '0%' }}
@@ -97,5 +98,6 @@ export default function Lacoste() {
 
             </motion.div>
         </AnimatePresence>
+       </div>
     )
 }

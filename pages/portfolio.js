@@ -12,7 +12,8 @@ export default function Portfolio() {
         section.scrollIntoView({ behavior: "smooth" });
     };
     return (
-        <div onMenuItemClick={handleScrollToSection}
+       <div>
+         <div onMenuItemClick={handleScrollToSection}
         >
             <AnimatePresence >
                 <motion.div
@@ -135,5 +136,6 @@ export default function Portfolio() {
                 </motion.div>
             </AnimatePresence>
         </div>
+       </div>
     )
 }
