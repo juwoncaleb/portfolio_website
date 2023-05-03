@@ -22,7 +22,7 @@ export default function Lacoste() {
                             animate={{ x: '0%' }}
                             exit={{ x: "0%" }}
                             transition={{
-                                duration: 0.5
+                                
                             }} className='lac_shot' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257' />
                     </AnimatePresence>
 
