@@ -8,7 +8,7 @@ export default function Header(props) {
         <div>
             <div className='flex justify-between header_desktop'>
                 <Link href='./'>
-                    <img src='./home/lg3.png' className='header_items logo cursor-pointer'></img>
+                    <img src='https://ik.imagekit.io/juwoncaleb/lg3_Eh72ewKf5.webp?updatedAt=1683135944199' className='header_items logo cursor-pointer'></img>
 
                 </Link>
                 <Link href='./About'>

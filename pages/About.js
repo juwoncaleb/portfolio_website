@@ -17,9 +17,9 @@ export default function About() {
             duration: 0.8
         }}>
             <Header />
-            <div id="div1" className='myself mt-20 flex justify-between'>
+            <div id="div1" className='myself mt-20 flex justify-around'>
                 <div>
-                    <img className='lg' src='./home/lg3.png' />
+                    <img className='lg' src='https://ik.imagekit.io/juwoncaleb/lg2_L1ZwX5ioR.webp?updatedAt=1683136241357' />
                 </div>
                 <div className='my_text'>
                     <p className='me_head'>Who’s behind all <br /> this great work?</p>
@@ -46,11 +46,11 @@ export default function About() {
                 <p className='text-center code mt-14'>WHEN I AM NOT WRITING CODE  ,
                 </p>
                 <p className='text-center code mb-12'> I AM RUNNING MY LOGISTIC COMPANY -LEXA</p>
-                <img className='staff' src='./staff.jpg' />
+                <img className='staff' src='https://ik.imagekit.io/juwoncaleb/staff_BN5-kpKFm.webp?updatedAt=1683137292237' />
                 <p className='codejnr text-center mt-10'> I ALSO LOVE RIDING <br /> MY BIKE AROUND LAGOS</p>
                 <div className='md:flex grid mt-14 justify-around'>
-                    <img src='ride.jpg' />
-                    <img className='fal mt-14 md:mt-0' src='falomo.jpg' />
+                    <img src='https://ik.imagekit.io/juwoncaleb/ride_VZcmXT-uv.webp?updatedAt=1683137291667' />
+                    <img className='fal mt-14 md:mt-0' src='https://ik.imagekit.io/juwoncaleb/falomo_KnGWxw_um.webp?updatedAt=1683137293845' />
                 </div>
             </div>
             <Footer />

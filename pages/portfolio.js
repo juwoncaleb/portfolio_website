@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "framer-motion"
 import Link from 'next/link'
 
-export default function portfolio() {
+export default function Portfolio() {
     const router = useRouter()
     const handleScrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -47,9 +47,9 @@ export default function portfolio() {
                                 <div className='small_port '>
                                     <div className='flex'>
                                         <p className='port_head porr'>LACOSTE</p>
-                                        <img className='nyx porr' src='./home/laco.png' />
+                                        <img className='nyx porr' src='https://ik.imagekit.io/juwoncaleb/laco_dVDVkRDQl.webp?updatedAt=1683136241642' />
                                     </div>
-                                    <img className='lac' src='./home/lac.png' />
+                                    <img className='lac' src='https://ik.imagekit.io/juwoncaleb/lac_ox3vNaeYH.webp?updatedAt=1683136241155' />
 
                                     <Link href='./lacoste'>
                                         <button className='explore_black porr mt-8 flex justify-center '>
@@ -69,7 +69,7 @@ export default function portfolio() {
                                         MADE WITH <br /> NEXTJS IN THE FRONTENDS
                                         MADE WITH NEXTJS IN THE BACKEND <br />
                                         UTILIZES MONGODB AS A DATABASE SYSTEM </p>
-                                    <Link href='./nysx'>
+                                    <Link href='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666'>
                                         <button className='explore_black mt-8 flex justify-center '>
                                             Explore
                                             <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
@@ -83,7 +83,7 @@ export default function portfolio() {
                                     </div>
                                     <img className='lac' src='./nyx.png' />
 
-                                    <Link href='./nysx'>
+                                    <Link href='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666'>
                                         <button className='explore_black porr mt-8 flex justify-center '>
                                             Explore
                                             <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
@@ -116,7 +116,7 @@ export default function portfolio() {
                                         <p className='port_head porr'>PERIEVIEW</p>
                                         <img className='perlg porr' src='./perelogo.png' />
                                     </div>
-                                    <img className='lac' src='./pere.png' />
+                                    <img className='lac' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257' />
 
                                     <Link href='./pere'>
                                         <button className='explore_black porr mt-8 flex justify-center '>

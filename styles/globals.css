@@ -414,7 +414,7 @@
 }
 
 .port_Des {
-  margin-top: 110px;
+  margin-top: 60px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -951,6 +951,7 @@
     border-radius: 20px;
   }
   .hero_head {
+    font-size: 40px;
     font-weight: 700;
     margin-top: 20px !important;
   }
@@ -958,6 +959,12 @@
     margin-top: 30px;
     text-align: left;
     padding-left: 20px;
+  }
+  .links {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
   }
   .workplace {
     padding-left: 7px;
@@ -981,7 +988,8 @@
     margin-bottom: 10px;
   }
   .nyx_log {
-    height: 23px;
+    height: 38px;
+    margin-top: 40px;
   }
   .landingpage_content {
     margin-left: 2%;
@@ -1030,6 +1038,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: 15px;
   }
   .buttons {
     display: flex;
@@ -1194,7 +1203,7 @@
 
 .links {
   color: rgb(255, 255, 255);
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: underline;
 }
@@ -1230,7 +1239,7 @@
 @media only screen and (max-width: 425px) {
   .lacoste_head {
     margin-top: 50px;
-    font-size: 17px;
+    font-size: 37px;
     font-weight: 600;
   }
   .lacoste_logo {
@@ -1240,14 +1249,14 @@
   }
   .tools {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .links {
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .overview {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     margin-top: 15px;
   }

@@ -137,6 +137,8 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .perlg {
@@ -404,7 +406,7 @@
 }
 
 .port_Des {
-    margin-top: 110px;
+    margin-top: 60px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -1022,6 +1024,7 @@
     }
 
     .hero_head {
+        font-size: 40px;
         font-weight: 700;
         margin-top: 20px !important;
     }
@@ -1030,6 +1033,12 @@
         margin-top: 30px;
         text-align: left;
         padding-left: 20px;
+    }
+    .links {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-weight: 700;
+        text-decoration: underline;
     }
 
     .workplace {
@@ -1059,7 +1068,8 @@
     }
 
     .nyx_log {
-        height: 23px;
+        height: 38px;
+        margin-top: 40px;
     }
 
     .landingpage_content {
@@ -1117,6 +1127,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        font-size: 15px;
     }
 
     .buttons {

@@ -4,7 +4,7 @@ import { AnimatePresence, motion, stagger, useScroll, useTransform } from "frame
 import Header from '../components/Header'
 import { useRouter } from 'next/router'
 
-export default function contact() {
+export default function Contact() {
   const router = useRouter()
 
   return (
@@ -18,7 +18,7 @@ export default function contact() {
                 }}>
         <Header />
         <div className='contact '>
-          <div className='flex justify-between contact_content'>
+          <div className='flex justify-around contact_content'>
             <div>
               <p className='contact_text'><span className='span_text'>Contact </span>Me</p>
               <div className='contact_details'>

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Footer from '../components/Footer'
 import { AnimatePresence, motion, stagger, useScroll, useTransform, } from "framer-motion"
 import Header from '../components/Header'
-import Data from './data'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -40,7 +39,7 @@ export default function Landingpage() {
               </div>
               <div className='hero_texts'>
                 <p >YOU CAN CALL ME JC OR COMPUTER WHISPERER
-                  YOU DEBUG CODE , <br/> I STARE AT MY CODE , TILL THE BUGS STARTS CONFESSING</p>
+                  YOU DEBUG CODE , <br /> I STARE AT MY CODE , TILL THE BUGS STARTS CONFESSING</p>
 
               </div>
               <div className='flex mt-10 buttons'>
@@ -54,7 +53,7 @@ export default function Landingpage() {
                 </button>
               </div>
             </div>
-            <img className='hero_img' src='./home/land.png' />
+            <img className='hero_img' src='https://ik.imagekit.io/juwoncaleb/land_awzYBUCr2.webp?updatedAt=1683135783020' />
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 30 }}
@@ -77,7 +76,7 @@ export default function Landingpage() {
                   : 0.6
               }} className='skill_set'>
               <div className='skill_container'>
-                <img className='skills' src='./home/dev.png' />
+                <img className='skills' src='https://ik.imagekit.io/juwoncaleb/dev_vXHq8cxNs.webp?updatedAt=1683136240455' />
               </div>
               <p className='skills_head'>Frontend Engineering</p>
               <p className='skill_text'> I use tools such as ReactJS, NextJS, Redux Toolkit, TailwindCSS, Chakra UI, Material UI, SCSS, and Framer Motion , to create business solution for organisation</p>
@@ -90,7 +89,7 @@ export default function Landingpage() {
                   : 0.6, delay: 0.1
               }} className='skill_set'>
               <div className='skill_container'>
-                <img className='skills' src='./home/perf.png' />
+                <img className='skills' src='https://ik.imagekit.io/juwoncaleb/perf_C4Zu7nOj4.webp?updatedAt=1683136967334' />
               </div>
               <p className='skills_head'> Web Performance</p>
               <p className='skill_text'>   I optimize website speed using techniques, ensuring organisation meet up with google webcore vital requirments .With my proven track record in web performance , i reduce bounce rate and increase conversion rates</p>
@@ -104,7 +103,7 @@ export default function Landingpage() {
                   : 0.6, delay: 0.2
               }} className='skill_set'>
               <div className='skill_container'>
-                <img className='skills' src='./home/write.png' />
+                <img className='skills' src='https://ik.imagekit.io/juwoncaleb/write_uILSWjGhI.webp?updatedAt=1683136967511' />
               </div>
               <p className='skills_head'>Technical writing</p>
               <p className='skill_text'>I create clear technical documentation, user manuals, and instructional materials to improve user experience and drive user adoption. With my deep understanding of complex technical concepts, I am able to break them down into simple, easy-to-understand language that is accessible to a wide range of audiences.</p>
@@ -115,7 +114,7 @@ export default function Landingpage() {
                 type: 'spring', stiffness: 100, damping: 10, duration
                   : 0.6, delay: 0.3
               }} className='skill_set yellow'>
-              <img className='box' src='./home/box.png' />
+              <img className='box' src='https://ik.imagekit.io/juwoncaleb/box_kHc5Cl-yh.webp?updatedAt=1683136240321' />
               <p className='skills_head'>Get in touch</p>
               <p className='skill_text'>Looking for another service? Get in touch with me, there is a high chance that I will be able to help!</p>
               <button className='hero_message ml-auto mr-auto flex justify-center ml-10'>
@@ -126,9 +125,14 @@ export default function Landingpage() {
 
           </div>
 
-          <div id="div1" className='myself aboutme flex justify-between'>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} id="div1" className='myself aboutme flex justify-between'>
             <div>
-              <img className='lg' src='./home/lg3.png' />
+              <img className='lg' src='https://ik.imagekit.io/juwoncaleb/lg3_Eh72ewKf5.webp?updatedAt=1683135944199' />
             </div>
             <div className='my_text'>
               <p className='me_head'>Who’s behind all <br /> this great work?</p>
@@ -150,10 +154,20 @@ export default function Landingpage() {
               <p > I made several projects, with serveral web as a freelancer <br /> and for fun to get better</p>
 
             </div>
-          </div>
-          <p className='portfolio'>Take a look at my <br /> <span className='port_color'>Portfolio</span></p>
+          </motion.div>
+          <motion.p initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} className='portfolio'>Take a look at my <br /> <span className='port_color'>Portfolio</span></motion.p>
 
-          <div className='flex test'>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} className='flex test'>
             <motion.div
 
               onClick={() => {
@@ -165,7 +179,7 @@ export default function Landingpage() {
               <div className='port_Des '>
                 <div className='flex '>
                   <p className='port_head'>Pereview</p>
-                  <img className='perlg' src='./perelogo.png' />
+                  <img className='perlg' src=' https://ik.imagekit.io/juwoncaleb/perelogo_wcgpkU_cV.webp?updatedAt=1683136582742' />
                 </div>
                 <p className='port_det'>A DEVELOPER PRODUCTIVITY SASS <br />tO HELP DEVELOPERS ARE PRODUCT DESIGNERS  <br />
                   GATHER REAL USER FEEDBACK ON PRODUCT BEFORE DEPLOYMENT </p>
@@ -176,15 +190,15 @@ export default function Landingpage() {
                   </button>
                 </Link>
               </div>
-              <img className='lacost_image port_Des' src='./pere.png' />
+              <img className='lacost_image port_Des' src=' https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257  ' />
 
 
               <div className='port_sub'>
                 <div className='flex justify-center small_head '>
                   <p className='port_head'>Pereview</p>
-                  <img className='perlg' src='./perelogo.png' />
+                  <img className='perlg' src='https://ik.imagekit.io/juwoncaleb/perelogo_wcgpkU_cV.webp?updatedAt=1683136582742' />
                 </div>
-                <img className='lacost_image' src='./pere.png' />
+                <img className='lacost_image' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257 ' />
                 <Link href='./pere'>
                   <button className='explore_black mt-8 flex justify-center  '>
                     Explore
@@ -223,13 +237,13 @@ export default function Landingpage() {
                 </Link>
               </div>
 
-              <img className='lacost_image port_Des' src='./nyx.png' />
+              <img className='lacost_image port_Des' src='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666' />
               <div className='port_sub'>
                 <div className='flex justify-center '>
                   <p className='port_head'>NYX</p>
                   <img className='nyx' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
                 </div>
-                <img className='lacost_image' src='./nyx.png' />
+                <img className='lacost_image' src='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666' />
                 <Link href="./nysx">
                   <button className='explore_black mt-8 flex justify-center  '>
                     Explore
@@ -250,7 +264,7 @@ export default function Landingpage() {
               <div className='port_Des '>
                 <div className='flex'>
                   <p className='port_head'>Lacoste </p>
-                  <img className='nyx' src='./home/laco.png' />
+                  <img className='nyx' src='https://ik.imagekit.io/juwoncaleb/laco_dVDVkRDQl.webp?updatedAt=1683136241642' />
                 </div>
 
                 <p className='port_det'>A FULL STACK ECOMMERCE STORE
@@ -264,14 +278,14 @@ export default function Landingpage() {
                   </button>
                 </Link>
               </div>
-              <img className='lacost_image port_Des' src='./home/lac.png' />
+              <img className='lacost_image port_Des' src='https://ik.imagekit.io/juwoncaleb/lac_ox3vNaeYH.webp?updatedAt=1683136241155' />
 
               <div className='port_sub'>
                 <div className='flex justify-center small_head '>
                   <p className='port_head'>Lacoste</p>
-                  <img className='nyx' src='./home/laco.png' />
+                  <img className='nyx' src='https://ik.imagekit.io/juwoncaleb/laco_dVDVkRDQl.webp?updatedAt=1683136241642' />
                 </div>
-                <img className='lacost_image' src='./home/lac.png' />
+                <img className='lacost_image' src='https://ik.imagekit.io/juwoncaleb/lac_ox3vNaeYH.webp?updatedAt=1683136241155' />
                 <Link href='./lacoste'>
                   <button className='explore_black mt-8 flex justify-center  '>
                     Explore
@@ -280,7 +294,7 @@ export default function Landingpage() {
                 </Link>
               </div>
             </motion.div>
-          </div>
+          </motion.div>
           <Link href='./portfolio'>
             <button className='port_sec flex mb-14 justify-center ml-10'>
               <img className='hero_icon ' src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/null/external-suitcase-office-stationery-justicon-lineal-color-justicon.png" />
@@ -291,7 +305,12 @@ export default function Landingpage() {
           </Link>
 
 
-          <div className='resume flex justify-around'>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} className='resume flex justify-around'>
             <div className='ress_head'>
               <p className='portfolio'>Take a look at my <br /> <span className='past'>past experience</span></p>
               <button className='hero_portfol flex justify-center'>
@@ -302,7 +321,7 @@ export default function Landingpage() {
             <div className='workplace'>
               <div className='resume_card'>
                 <div className='flex justify-between mb-4 ml-8 mr-8 '>
-                  <img className='res' src='./home/truz.png' />
+                  <img className='res' src='https://ik.imagekit.io/juwoncaleb/tru_P9iFBGeY5.webp?updatedAt=1683136967701' />
                   <p>Marc 2023 - Present</p>
                 </div>
                 <hr className='resume_head' />
@@ -314,7 +333,7 @@ export default function Landingpage() {
 
               <div className='resume_card'>
                 <div className='flex justify-between mb-4 ml-8 mr-8 '>
-                  <img className='res' src='./home/sabi.png' />
+                  <img className='res' src='https://ik.imagekit.io/juwoncaleb/sabi_fUasHOn95.webp?updatedAt=1683136967643' />
                   <p>Marc 2023 - Present</p>
                 </div>
                 <hr className='resume_head' />
@@ -326,7 +345,7 @@ export default function Landingpage() {
 
               <div className='resume_card'>
                 <div className='flex justify-between mb-4 ml-8 mr-8 '>
-                  <img className='res' src='./home/blacklist.png' />
+                  <img className='res' src='https://ik.imagekit.io/juwoncaleb/blacklist_SC2gvf41q.webp?updatedAt=1683136967634' />
                   <p>Marc 2023 - Present</p>
                 </div>
                 <hr className='resume_head' />
@@ -336,9 +355,14 @@ export default function Landingpage() {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div id="div2" className='articles '>
+          <motion.div initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              type: 'spring', stiffness: 100, damping: 10, duration
+                : 0.6
+            }} id="div2" className='articles '>
             <p className='article'>Articles</p>
 
             <div className='faq_head'>
@@ -425,7 +449,7 @@ export default function Landingpage() {
               <img className='hero_icon ' src="https://img.icons8.com/laces/64/null/edit.png" />
               View more articles
             </button>
-          </div>
+          </motion.div>
         </div>
         <Footer />
 
