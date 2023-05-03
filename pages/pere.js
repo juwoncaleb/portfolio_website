@@ -14,7 +14,7 @@ export default function Lacoste() {
                 initial={{ x: "50%" }}
                 animate={{ x: '0%' }}
                 exit={{ x: "-100%" }}
-                transformValues={{
+                transition={{
                     duration:1
                 }}
                 className='proj_per'>
