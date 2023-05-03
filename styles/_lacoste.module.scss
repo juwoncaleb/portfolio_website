@@ -23,6 +23,9 @@
     color: white;
 
 }
+.proj_per{
+    width: 100%;
+}
 .project_header {
     margin-left: 10%;
     margin-right: 10%;
@@ -84,7 +87,7 @@
 @media only screen and (max-width: 425px) {
     .lacoste_head {
         margin-top: 50px;
-        font-size: 37px;
+        font-size: 20px;
         font-weight: 600;
 
     }

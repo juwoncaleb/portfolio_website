@@ -11,17 +11,20 @@ export default function Lacoste() {
        <div>
          <AnimatePresence>
             <motion.div key={router.route}
-                initial={{ x: "100%" }}
+                initial={{ x: "-100vw" }}
                 animate={{ x: '0%' }}
-                exit={{ x: "-100%" }}
+                exit={{ x: "-100vw" }}
+                transition={{
+                    duration:0.5
+                }}
                className='projects'>
                 <Header />
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>
                         <p className='mt-8 mb-14'>LACOSTE ECOMMERCE PROJECT</p>
-                        <img className='md:ml-10 ml-2 lacoste_logo' src='./home/laco.png' />
+                        <img className='md:ml-10 ml-2 lacoste_logo' src='https://ik.imagekit.io/juwoncaleb/laco_dVDVkRDQl.webp?updatedAt=1683136241642' />
                     </div>
-                    <img className='lac_shot' src='./home/lac.png' />
+                    <img className='lac_shot' src='https://ik.imagekit.io/juwoncaleb/lac_ox3vNaeYH.webp?updatedAt=1683136241155' />
                     <div>
                         <p className='overview mt-14 '>Project overview</p>
                         <div className='md:flex justify-between'>

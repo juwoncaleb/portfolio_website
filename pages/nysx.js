@@ -10,12 +10,12 @@ export default function Nyx() {
     return (
         <AnimatePresence>
             <motion.div key={router.route}
-                initial={{ x: "100%" }}
-                animate={{ x: '0%' }}
-                exit={{ x: "-100%" }}
-                transition={{
-                    duration: 0.5
-                }} className='projects_nxy'>
+                 initial={{ x: "-100vw" }}
+                 animate={{ x: '0%' }}
+                 exit={{ x: "-100vw" }}
+                 transition={{
+                     duration:0.5
+                 }} className='projects_nxy'>
                 <Header />
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>
@@ -24,7 +24,7 @@ export default function Nyx() {
 
                     </div>
 
-                    <img className='lac_shot' src='./nyx.png' />
+                    <img className='lac_shot' src='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666' />
                     <div>
                         <p className='overview mt-20 md:mt-20 '>Project overview</p>
                         <div className='md:flex justify-between'>

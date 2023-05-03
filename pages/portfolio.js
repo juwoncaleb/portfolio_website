@@ -18,10 +18,13 @@ export default function Portfolio() {
             <AnimatePresence >
                 <motion.div
                     key={router.route}
-                    initial={{ x: "100%" }}
-                    animate={{ x: '0%' }}
-                    exit={{ x: "0%" }}
-                  
+                    initial={{ x: "-100vw" }}
+                animate={{ x: '0%' }}
+                exit={{ x: "-100vw" }}
+                transition={{
+                    duration:0.5
+                }}
+                 
                 >
                     <Header />
 
@@ -68,7 +71,7 @@ export default function Portfolio() {
                                         MADE WITH <br /> NEXTJS IN THE FRONTENDS
                                         MADE WITH NEXTJS IN THE BACKEND <br />
                                         UTILIZES MONGODB AS A DATABASE SYSTEM </p>
-                                    <Link href='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666'>
+                                    <Link href='./nysx'>
                                         <button className='explore_black mt-8 flex justify-center '>
                                             Explore
                                             <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
@@ -113,7 +116,7 @@ export default function Portfolio() {
                                 <div className='small_port '>
                                     <div className='flex'>
                                         <p className='port_head porr'>PERIEVIEW</p>
-                                        <img className='perlg porr' src='./perelogo.png' />
+                                        <img className='perlg porr' src='https://ik.imagekit.io/juwoncaleb/perelogo_wcgpkU_cV.webp?updatedAt=1683136582742' />
                                     </div>
                                     <img className='lac' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257' />
 

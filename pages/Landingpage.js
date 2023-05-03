@@ -23,7 +23,7 @@ export default function Landingpage() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{
-          duration: 0.5
+          duration: 0.7
         }} className='language'>
         <Header onMenuItemClick={handleScrollToSection} />
         <div className='landingpage_content '>

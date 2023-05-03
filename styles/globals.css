@@ -27,7 +27,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .portfolio {
   margin-left: auto;
   margin-right: auto;
@@ -153,6 +152,8 @@
   align-items: center;
   justify-items: center;
   justify-content: center;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .perlg {
@@ -1167,9 +1168,17 @@
     font-weight: 600;
   }
 }
+.main {
+  font-family: Archivo;
+}
+
 .projects {
   background-color: black;
   color: white;
+}
+
+.proj_per {
+  width: 100%;
 }
 
 .project_header {
@@ -1234,7 +1243,7 @@
 @media only screen and (max-width: 425px) {
   .lacoste_head {
     margin-top: 50px;
-    font-size: 37px;
+    font-size: 20px;
     font-weight: 600;
   }
   .lacoste_logo {
