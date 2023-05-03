@@ -10,12 +10,12 @@ export default function Nyx() {
     return (
         <AnimatePresence>
             <motion.div key={router.route}
-                 initial={{ x: "-100vw" }}
-                 animate={{ x: '0%' }}
-                 exit={{ x: "-100vw" }}
-                 transition={{
-                     duration:0.5
-                 }} className='projects_nxy'>
+                  initial={{ x: "-100vw" }}
+                  animate={{ x: '0%' }}
+                  exit={{ x: "-100vw" }}
+                  transition={{
+                      duration:0.5
+                  }} className='projects_nxy'>
                 <Header />
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>
