@@ -19,9 +19,9 @@ export default function Lacoste() {
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>
                         <p className='mt-8 mb-14'>PERIEVIEW</p>
-                        <img className='md:ml-10 ml-2 mt-2 mb-14 perl' src='./perelogo.png' />
+                        <img className='md:ml-10 ml-2 mt-2 mb-14 perl' src='https://ik.imagekit.io/juwoncaleb/perelogo_wcgpkU_cV.webp?updatedAt=1683136582742' />
                     </div>
-                    <img className='lac_shot' src='./pere.png' />
+                    <img className='lac_shot' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257' />
                     <div>
                         <p className='overview mt-14 '>Project overview</p>
                         <div className='md:flex justify-between'>
