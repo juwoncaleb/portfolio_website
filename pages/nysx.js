@@ -30,8 +30,8 @@ export default function Nyx() {
                         <div className='md:flex justify-between'>
                             <p className='mb-1 md:mb-10 tools text-1xl  italic'>Tools & Technology : Nextjs ,  Tailwind CSS,  </p>
                             <div className='flex justify-around links cursor-pointer' >
-                                <p className='mr-1 md:mr-14'>LIVE LINK</p>
-                                <p>GITHUB LINK</p>
+                                <a href='https://nyxx.vercel.app/' className='mr-1 md:mr-14'>LIVE LINK</a>
+                                <a href='https://github.com/juwoncaleb/Nyxx'>GITHUB LINK</a>
                             </div>
                         </div>
 

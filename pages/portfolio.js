@@ -85,7 +85,7 @@ export default function Portfolio() {
                                     </div>
                                     <img className='lac' src='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666' />
 
-                                    <Link href='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666'>
+                                    <Link href='./nysx'>
                                         <button className='explore_black porr mt-8 flex justify-center '>
                                             Explore
                                             <img className=' ml-4 mb-2 arrow' src="https://img.icons8.com/ios-glyphs/30/null/long-arrow-up.png" />
