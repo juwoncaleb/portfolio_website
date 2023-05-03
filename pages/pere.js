@@ -11,7 +11,7 @@ export default function Lacoste() {
        <div>
          <AnimatePresence>
             <motion.div key={router.route}
-                initial={{ x: "100%" }}
+                initial={{ x: "50%" }}
                 animate={{ x: '0%' }}
                 exit={{ x: "-100%" }}
                 className='proj_per'>
