@@ -14,6 +14,9 @@ export default function Lacoste() {
                 initial={{ x: "50%" }}
                 animate={{ x: '0%' }}
                 exit={{ x: "-100%" }}
+                transformValues={{
+                    duration:1
+                }}
                 className='proj_per'>
                 <Header />
                 <div className='proj'>
