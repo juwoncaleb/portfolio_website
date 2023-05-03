@@ -14,9 +14,7 @@ export default function Lacoste() {
                 initial={{ x: "100%" }}
                 animate={{ x: '0%' }}
                 exit={{ x: "-100%" }}
-                transition={{
-                    duration: 0.5
-                }} className='projects'>
+               className='projects'>
                 <Header />
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>

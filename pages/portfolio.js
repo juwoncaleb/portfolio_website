@@ -21,9 +21,7 @@ export default function Portfolio() {
                     initial={{ x: "100%" }}
                     animate={{ x: '0%' }}
                     exit={{ x: "0%" }}
-                    transition={{
-                        duration: 0.5
-                    }}
+                  
                 >
                     <Header />
 
@@ -82,7 +80,7 @@ export default function Portfolio() {
                                         <p className='port_head porr'>NYX</p>
                                         <img className='nyx porr' src='https://ik.imagekit.io/juwoncaleb/24299_451616_JRSH0nPB2.jpg?updatedAt=1682348309296' />
                                     </div>
-                                    <img className='lac' src='./nyx.png' />
+                                    <img className='lac' src='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666' />
 
                                     <Link href='https://ik.imagekit.io/juwoncaleb/nyx_9IMaCKkT6.webp?updatedAt=1683136582666'>
                                         <button className='explore_black porr mt-8 flex justify-center '>

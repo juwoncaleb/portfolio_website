@@ -8,24 +8,20 @@ export default function Lacoste() {
     const router = useRouter()
 
     return (
-        <div>
-            <div className='proj_per'>
+       <div>
+         <AnimatePresence>
+            <motion.div key={router.route}
+                initial={{ x: "100%" }}
+                animate={{ x: '0%' }}
+                exit={{ x: "-100%" }}
+                className='proj_per'>
                 <Header />
                 <div className='proj'>
                     <div className='flex justify-center lacoste_head'>
                         <p className='mt-8 mb-14'>PERIEVIEW</p>
                         <img className='md:ml-10 ml-2 mt-2 mb-14 perl' src='./perelogo.png' />
                     </div>
-                    <AnimatePresence>
-                        <motion.img key={router.route}
-                            initial={{ x: "100%" }}
-                            animate={{ x: '0%' }}
-                            exit={{ x: "0%" }}
-                            transition={{
-                                
-                            }} className='lac_shot' src='https://ik.imagekit.io/juwoncaleb/pere_BldbFlPfY.webp?updatedAt=1683136583257' />
-                    </AnimatePresence>
-
+                    <img className='lac_shot' src='./pere.png' />
                     <div>
                         <p className='overview mt-14 '>Project overview</p>
                         <div className='md:flex justify-between'>
@@ -80,7 +76,7 @@ export default function Lacoste() {
                                     optimize the landing page for better performance. I also used Framer Motion to add animations and transitions
                                     to the landing page, which made the page more engaging and visually appealing.</p>
                             </motion.div>
-                            <motion.div initial={{ opacity: 0, y: 30 }}
+                            <motion.div  initial={{ opacity: 0, y: 30 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{
                                     type: 'spring', stiffness: 100, damping: 10, duration
@@ -98,7 +94,8 @@ export default function Lacoste() {
                 </div>
                 <Footer />
 
-            </div>
-        </div>
+            </motion.div>
+        </AnimatePresence>
+       </div>
     )
 }
