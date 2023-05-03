@@ -15,7 +15,7 @@ export default function Contact() {
                 exit={{ y: "-100%" }}
                 transition={{
                     duration: 0.8
-                }}>
+                }} >
         <Header />
         <div className='contact '>
           <div className='flex justify-around contact_content'>
