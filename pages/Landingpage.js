@@ -43,14 +43,18 @@ export default function Landingpage() {
 
               </div>
               <div className='flex mt-10 buttons'>
+                <Link href="./portfolio">
                 <button className='hero_portfolo flex justify-center'>
                   <img className='hero_icon ' src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/null/external-suitcase-office-stationery-justicon-lineal-color-justicon.png" />
                   View portfolio
                 </button>
-                <button className='hero_message flex justify-center ml-10'>
+                </Link>
+             <Link href="./contact">
+                       <button className='hero_message flex justify-center ml-10'>
                   <img className='hero_icon' src='./home/mail.png' />
                   Get in touch
                 </button>
+                    </Link>
               </div>
             </div>
             <img className='hero_img' src='https://ik.imagekit.io/juwoncaleb/land_awzYBUCr2.webp?updatedAt=1683135783020' />
@@ -313,10 +317,13 @@ export default function Landingpage() {
             }} className='resume flex justify-around'>
             <div className='ress_head'>
               <p className='portfolio'>Take a look at my <br /> <span className='past'>past experience</span></p>
-              <button className='hero_portfol flex justify-center'>
+            <Link href="https://drive.google.com/file/d/1E9ltrUKo9xyMNTI-ADw2b37vGoq8NmxZ/view">
+                  <button className='hero_portfol flex justify-center'>
                 <img className='hero_icon ' src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/null/external-suitcase-office-stationery-justicon-lineal-color-justicon.png" />
                 See full resume
               </button>
+                </Link>
+
             </div>
             <div className='workplace'>
               <div className='resume_card'>
