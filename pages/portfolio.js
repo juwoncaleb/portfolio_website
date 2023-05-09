@@ -67,10 +67,10 @@ export default function Portfolio() {
                             <div className='portfolo_conten nys flex justify-around'>
                                 <div className='port_Des'>
                                     <p className='port_head'>NYX</p>
-                                    <p className='port_det'>A FULL STACK ECOMMERCE STORE
-                                        MADE WITH <br /> NEXTJS IN THE FRONTENDS
-                                        MADE WITH NEXTJS IN THE BACKEND <br />
-                                        UTILIZES MONGODB AS A DATABASE SYSTEM </p>
+                                   <p className='port_det'>A CRYPTO COMPAN SIDE POJECT
+                                        MADE WITH <br /> NEXTJS IN THE FRONTEND , FRAMER MOTION
+                                       <br />
+                                        FOR THE ANIMATIONS</p>
                                     <Link href='./nysx'>
                                         <button className='explore_black mt-8 flex justify-center '>
                                             Explore
@@ -102,10 +102,10 @@ export default function Portfolio() {
                             <div className='portfolo_conten flex justify-around'>
                                 <div className='port_Des'>
                                     <p className='port_head'>PERIEVIEW</p>
-                                    <p className='port_det'>A FULL STACK ECOMMERCE STORE
-                                        MADE WITH <br /> NEXTJS IN THE FRONTENDS
-                                        MADE WITH NEXTJS IN THE BACKEND <br />
-                                        UTILIZES MONGODB AS A DATABASE SYSTEM </p>
+                                    <p className='port_det'>A LANDING PAGE FOR A DEVELOPER PRODUCTITY STARTUP
+                                        MADE WITH <br /> NEXTJS IN THE FRONTEND , FRAMER MOTION
+                                       <br />
+                                        FOR THE ANIMATIONS</p>
                                     <Link href='./pere'>
                                         <button className='explore_black mt-8 flex justify-center '>
                                             Explore
