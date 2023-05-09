@@ -44,7 +44,7 @@ export default function Nyx() {
                                 }} className=''>
 
                                 <p className='text-left proj_head '>Introduction</p>
-                                <p>As a Frontend engineer, I had the opportunity to work on an exciting project where I created a cryptocurrency website for a company. The website was built using Next.js and Tailwind CSS,
+                                <p>As a Frontend engineer, I had the opportunity to work on an exciting Side project where I created a cryptocurrency website . The website was built using Next.js and Tailwind CSS,
                                     and I utilized Figma for design and Framer Motion for animations. In this write-up, I will share my experience working on this project, the challenges I faced, and what I learned from it.</p>
                             </motion.div>
                             <motion.div initial={{ opacity: 0, y: 30 }}
