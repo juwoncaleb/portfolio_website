@@ -317,7 +317,7 @@ export default function Landingpage() {
             }} className='resume flex justify-around'>
             <div className='ress_head'>
               <p className='portfolio'>Take a look at my <br /> <span className='past'>past experience</span></p>
-            <Link href="https://drive.google.com/file/d/1E9ltrUKo9xyMNTI-ADw2b37vGoq8NmxZ/view">
+            <Link href="https://drive.google.com/file/d/1VrFBkJtIAqizC1Xnsy2PE7wPdcCpwSqq/view?usp=sharing">
                   <button className='hero_portfol flex justify-center'>
                 <img className='hero_icon ml-4 ' src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/null/external-suitcase-office-stationery-justicon-lineal-color-justicon.png" />
                 See full resume
